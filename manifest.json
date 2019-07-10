@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Outline.com",
     "description": "Read web pages without clutter via outline.com",
-    "version": "1.0",
+    "version": "1.1",
     "background": {
         "scripts": ["background.js"]
     },

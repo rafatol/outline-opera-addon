@@ -6,7 +6,7 @@ chrome.browserAction.onClicked.addListener(function(){
         let currentTabUrl = tab[0].url;
         
         let xhr = new XMLHttpRequest();
-        xhr.open("GET", 'https://outlineapi.com/v3/parse_article?source_url=' + encodeURI(currentTabUrl), true);
+        xhr.open("GET", 'https://outlineapi.com/create_article?source_url=' + encodeURI(currentTabUrl), true);
 
         xhr.onload = function () {
             if(xhr.readyState == 4 && xhr.status == 200){
